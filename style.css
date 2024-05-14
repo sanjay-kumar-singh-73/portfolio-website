@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(img\ \(1\).jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box{
+    height: 85vh;
+    width: 75%;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 10;
+    /* border: 2px solid rgba(255, 255, 255, 0.7); */
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    backdrop-filter: blur (25px);
+    box-shadow: 15px 17px 17px rgba(10,10, 10, 0.15);
+    filter: drop-shadow( -2px 0px 15px white);
+}
+
+.container nav{
+    height: 7%;
+    width: 90%;
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding: 20px;
+}
+
+
+.container nav ul li a{
+    list-style: none;
+    color:yellow;
+    cursor: pointer;
+
+}
+
+.container .logo{
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffff;
+    margin-left: 30px;
+}
+
+.container .logo::first-letter{
+    color: #130435;
+    font-size: 35px;
+}
+
+.container nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.container nav ul li a{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(27, 6, 58);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.container nav ul li a:hover{
+    color: #130435;
+}
+
+content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    padding-left: 20px;
+    padding-bottom: 60px;
+}
+
+content  .section-1{
+    position: relative;
+    width: 50%;
+    color:black;
+
+}
+
+content .section-1 h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+content .section-1 h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+     color: #130435;
+}
+
+content .section-1 p{
+    font-size: 25px;
+    color:#000;
+    margin-bottom: 50px;
+}
+
+content .btn{
+    padding: 15px 20px;
+    border-radius: 200px;
+    background-color: #170444;
+    border: 2px solid #6f34fe;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffff;
+    transition: 0.3s;
+}
+
+content .btn:hover{
+    background-color: #ffff;
+    color: #000;
+    filter: drop-shadow(0px 0px 13px black);
+    border-radius: 30px;
+    border: 1.3 solid black;
+    /* font-size: 14px;
+    font-weight: 700; */
+}
+
+.sanjay{
+    padding-top:26px;
+}
+
+content .social-media{
+    display:inline-block;
+    position: absolute;
+    left: 10px;
+    top: 85%;
+    cursor: pointer;
+    font-size: 30px;
+      border-radius: 50%;
+}
+content .social-media a{
+    color: #170444;
+    margin: 15px;
+  
+}
+
+content .social-media a:hover{
+    color: #ccc8da;
+    filter: drop-shadow(0px 0px 15px black);
+
+}
